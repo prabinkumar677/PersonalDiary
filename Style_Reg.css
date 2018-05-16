@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*background: url(loginpage.jpg) no-repeat;
+	background-size: cover;	*/
+	font-family: sans-serif;
+	color: red;
+}
+body{
+	background: url(loginpage.jpg) no-repeat;
+	background-size: cover;	
+}
+h1{
+	text-align: center;
+	padding: 20px;
+}
+.Registartion-form{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: red;
+}
+
+label{
+	color: red;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+}
+#name{
+	border: none;
+	outline: none;
+	background: none;
+	color: red;
+	font-size: 16px;
+	width: 262px;
+	float: left;
+	margin: 0 10px;
+	font-style: italic;
+	border-bottom: 1px solid #4caf50;
+	padding: 7px;
+	font-weight: bold;
+	}
+#phonenumber{
+	width: 65px;
+	padding: 7px;
+	border: none;
+	outline: none;
+	background: none;
+	color: red;	
+	border-bottom: 1px solid #4caf50;
+	/*border-radius: 3px;*/
+	margin: 0 10px;
+	font-weight: bold;
+	
+}
+#MNum{
+	width: 170px;
+	padding: 7px;
+	border: none;
+	outline: none;
+	background: none;
+	color: red;	
+	border-bottom: 1px solid #4caf50;
+	font-style: italic;
+	font-weight: bold;
+	/*border-radius: 3px;*/
+	/*margin: 0 5px;*/
+}
+#submit{
+	width: 100%;
+	background: none;
+	border: 2px solid #4caf50;
+	color: red;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 12px 0;
+	font-weight: bold;
+}
+
+
+
+
+
